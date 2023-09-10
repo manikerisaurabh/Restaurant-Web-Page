@@ -1,0 +1,170 @@
+header {
+    text-align: center;
+    line-height: 0px;
+}
+
+#online{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: 900;
+    line-gap-override: 10px;
+}
+
+#FoodShop {
+    font-weight: 600;
+
+}
+.container {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    background-color: gray;
+    border-bottom: 3px solid black;
+}
+
+.container a:hover {
+    background-color: red;
+    border-radius: 5px;
+}
+.material-symbols-outlined {
+    position: sticky;
+    top: 0;
+    left: 48%;
+    background-color: black;
+    color: white;
+   font-size: 50px;
+    text-align: center;
+    animation: logo 10s ease-in 0s infinite ;
+}
+
+@keyframes logo {
+    0% {
+        transform:  rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.navbar {
+    position: absolute;
+    display: flex;
+    top: 55%;
+    left: 40%;
+    justify-content: space-between;
+}
+#home {
+    margin-left: 40%;
+}
+.navbar a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.middle {
+    height: 600px;
+    width: 100%;
+    background-image: url(pavbhaji.jpg);
+}
+
+.middle h1 {
+    position: relative;
+    text-align: center;
+    top: 5%;
+    font-size: 60px;
+}
+
+#Order {
+    position: relative;
+    top: 0%;
+    left: 45%;
+}
+
+.btn {
+    background-color: yellow;
+    border-radius: 20%;
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+    /* cursor: pointer; */
+   
+
+
+}
+
+.image {
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.image img {
+    height: 250px;
+    width: 400px;
+    padding: 100px;
+    border-radius: 10px;
+}
+.left img, .right img{
+    border-radius: 40%;
+}
+.left {
+    position: relative;
+    width: 50%;
+}
+
+.left button {
+    position: absolute;
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+
+}
+.right {
+    position: relative;
+    width: 50%;
+}
+
+.right button {
+    position: absolute;
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+
+}
+
+.featured {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.famous {
+    height: 300px;
+    width: 300px;
+}
+.buton {
+    position: absolute;
+  top: 85%;
+  margin-left: 90px;
+    justify-self: center;
+  cursor: pointer;
+z-index: 1;
+}
+
+
+.middle button :hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+#order :hover {
+    background-color: tomato;
+}

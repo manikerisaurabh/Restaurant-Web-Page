@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="contactUs.css">
+</head>
+<body>
+    <form action="/action">
+        <h1>Contact Us</h1>
+        <div class="container">
+            
+            <label for="query">Type of Query</label>
+            <br>
+            <select name="query" id="query">
+                <option value="none" selected>select</option>
+                <option value="damage">damage in food</option>
+                <option value="smell">Differnt smell</option>
+        </select>
+        <br>
+            <p>Name </p>
+            <input type="text " placeholder="Enter Your Name" style="width: 300px;">
+            <p>Email Id</p>
+            <input type="email" placeholder="Enter your Email" style="width: 300px;">
+            <p>Phone Number</p>
+            <input type="number" placeholder="Enter your Phone Number" style="width: 300px;">
+            <p>Are you a member of Online FoodShop</p>
+            <label for="ownership" class="ownership">
+                <input type="radio" name="radio"> 
+                yes
+            </label>
+            <label for="ownership" class="ownership">
+                <input type="radio" name="radio"> 
+                No
+            </label>
+            <p>Ellaborate your query</p>
+            <input type="text" style="height: 81px; width: 300px;">
+            <br>
+            <button>submit</button>
+            <button>reset</button>
+
+        </div>
+    </form>
+</body>
+</html>
